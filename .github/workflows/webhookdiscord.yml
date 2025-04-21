@@ -1,0 +1,8 @@
+      - name: Enviar alerta para Discord
+        if: always()  
+        run: |
+          curl -H "Content-Type: application/json" \
+            -X POST \
+            -d "{\"content\": \"🚀 Build finalizado no GitHub Actions para o repositório $GITHUB_REPOSITORY - Status: ${{ job.status }}\"}" \
+            ${{ secrets.DISCORD_WEBHOOK }}
+  
