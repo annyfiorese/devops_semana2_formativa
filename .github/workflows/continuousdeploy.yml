@@ -1,9 +1,12 @@
-
 name: Continuous Deploy CD
+
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
