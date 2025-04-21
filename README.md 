@@ -1,0 +1,27 @@
+# 💻 Sobre Mim - Projeto Pessoal
+
+Este é um projeto simples em HTML e CSS criado como parte da disciplina de DevOps, com o objetivo de praticar o ciclo de CI/CD no GitHub.
+
+---
+
+## ✨ Funcionalidades
+
+- Página com apresentação pessoal
+- Lista de hobbies e interesses
+- Links para redes sociais
+
+---
+
+## 🚀 Tecnologias usadas
+
+- HTML5
+- CSS3
+- Git & GitHub
+
+---
+
+## 🔧 Como executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/annyfiorese/devops_semana2_formativa
