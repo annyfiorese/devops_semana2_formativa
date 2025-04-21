@@ -1,5 +1,4 @@
-      name: Enviar alerta para Discord
-
+      - name: Enviar alerta para Discord
         if: always()  
         run: |
           curl -H "Content-Type: application/json" \
