@@ -1,5 +1,5 @@
-name: Continuous Deploy CD
 
+name: Continuous Deploy CD
 on:
   push:
     branches:
