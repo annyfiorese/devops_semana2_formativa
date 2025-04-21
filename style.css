@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 0 0 15px 15px;
+}
+
+header h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 30px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+ul.interesses {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ul.interesses li {
+  background-color: #ffffff;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul.redes {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+ul.redes li a {
+  text-decoration: none;
+  color: #4a90e2;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+ul.redes li a:hover {
+  background-color: #4a90e2;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eaeaea;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
