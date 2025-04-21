@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-color: #4a90e2;
+  background-color: #c006c7;
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -33,7 +33,7 @@ section {
 section h2 {
   font-size: 1.6em;
   margin-bottom: 20px;
-  color: #4a90e2;
+  color: #c006c7;
 }
 
 ul.interesses {
@@ -62,16 +62,16 @@ ul.redes {
 
 ul.redes li a {
   text-decoration: none;
-  color: #4a90e2;
+  color: #c006c7;
   font-weight: bold;
   padding: 10px 15px;
-  border: 2px solid #4a90e2;
+  border: 2px solid #c006c7;
   border-radius: 8px;
   transition: all 0.3s ease;
 }
 
 ul.redes li a:hover {
-  background-color: #4a90e2;
+  background-color: #c006c7;
   color: white;
 }
 
@@ -81,4 +81,19 @@ footer {
   background-color: #eaeaea;
   margin-top: 40px;
   border-top: 1px solid #ccc;
+}
+
+ul.conhecimentos {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ul.conhecimentos li {
+  background-color: #ffffff;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
