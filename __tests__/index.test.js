@@ -7,7 +7,7 @@ document.body.innerHTML = `
   <section>
     <h2>Hobbies & Interesses</h2>
     <ul class="interesses">
-      <li>💻 Programação e Autumações de processos</li>
+      <li>💻 Programação e Automações de processos</li>
       <li>📚 Ler livros de fantasia e distopia</li>
       <li>🎮 Jogar videogame</li>
       <li>📽️ Assistir Filmes e Series</li>
@@ -67,7 +67,7 @@ describe('Testes de interação com hobbies', () => {
   test('A lista deve ter exatamente 5 hobbies listados', () => {
     const hobbies = document.querySelectorAll('ul.interesses li');
     expect(hobbies.length).toBe(5);
-    expect(hobbies[0]).toHaveTextContent('💻 Programação e Autumações de processos');
+    expect(hobbies[0]).toHaveTextContent('💻 Programação e Automações de processos');
     expect(hobbies[1]).toHaveTextContent('📚 Ler livros de fantasia e distopia');
     expect(hobbies[2]).toHaveTextContent('🎮 Jogar videogame');
     expect(hobbies[3]).toHaveTextContent('📽️ Assistir Filmes e Series');
